@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM event</title>
+</head>
+<body>
+	<h1 onmouseover ="console.log(Math.random())">DOM Events</h1>
+	<button onclick="console.log(Math.random())">Random</button>
+	<h1 onclick="console.log(this)">
+		<span onclick="console.log(this)">Click</span>
+	</h1>
+	<script src="main.js"></script>
+</body>
+</html>
